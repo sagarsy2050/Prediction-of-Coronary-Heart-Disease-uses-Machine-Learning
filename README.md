@@ -1,4 +1,4 @@
-# Prediction-of-Coronary-Heart-Disease-uses-Machine-Learning
+# Coronary Heart Disease Prediction Using Machine Learning Technique
 PREPROCESSED DATA FROM FRAMINGHAM CARDIOVASCULAR DISEASE DATASET
 
 Introduction
