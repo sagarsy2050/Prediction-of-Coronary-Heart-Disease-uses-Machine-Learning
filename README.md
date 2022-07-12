@@ -56,8 +56,17 @@ The dataset is publically available on the Kaggle website, and it is from an ong
 * Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.) 
 * Glucose: glucose level (Continuous) 
 
-#### Target variable to predict: 
-* 10 year risk of coronary heart disease (CHD) - (binary: “1”, means “Yes”, “0” means “No”)
+Investigate a suite of complex models and establish a performance ceiling:
+Support Vector Machines
+Gradient Boosting Machines
+Random Forest
+Bagged Decision Trees
+Investigate a suite of simpler more interpretable models, such as:
+Logistics Regression
+k-Nearest Neighbours.
+Select the model from (1) & (2) that best approximates the accuracy.
+![Uploading image.png…]()
+
 
 
 
