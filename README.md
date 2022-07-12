@@ -59,4 +59,14 @@ The dataset is publically available on the Kaggle website, and it is from an ong
 #### Target variable to predict: 
 * 10 year risk of coronary heart disease (CHD) - (binary: “1”, means “Yes”, “0” means “No”)
 
+**Investigate a suite of complex models and establish a performance ceiling:**
+Support Vector Machines
+Gradient Boosting Machines
+Random Forest
+Bagged Decision Trees
+Investigate a suite of simpler more interpretable models, such as:
+Logistics Regression
+k-Nearest Neighbours.
+Select the model from (1) & (2) that best approximates the accuracy.
+![image](https://user-images.githubusercontent.com/55524115/178421584-98ee9a38-5f6a-45db-a8b2-a32c012c5216.png)
 
