@@ -56,15 +56,24 @@ The dataset is publically available on the Kaggle website, and it is from an ong
 * Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.) 
 * Glucose: glucose level (Continuous) 
 
-# Conclusion
+# Result Analyzed
 
-The importance of predicting Heart Disease and how ML can help has been presented here
+The dataset is provided based on study on residents of the town of Framingham, Massachusetts. The
+classification goal is to predict whether the patient has 10-year risk of future coronary heart disease
+(CHD).The dataset provides the patients’ information.
 
-Too much of Noise data in the HER dataset as a challenge was highlighted
+It is seen that Random Forest and Logistic Regression performs better than the other classifiers during
+training and that Logistic Regression is better than Random Forest during testing.
 
-Logistic Regression classifier was compared with 4 other supervised classifiers that had
-been historically used to build turnover models
+The LR classifier outperforms the other classifiers in terms of accuracy and memory utilization.
 
-The results demonstrate that the LR classifier is a superior algorithm in terms of
-significantly higher accuracy, relatively low runtimes and efficient memory utilization for
-predicting CHD.
+For class imbalance issue though we used XG Boost and feature selection in Random Forest it did not help
+much
+
+Another important point is the over-fitting suffered by classifiers other than XGBoost despite regularization
+or introduction of randomness, as the case maybe.
+
+XGBoost overcomes this problem due to its excellent inherent regularization and hence works perfectly for
+the noisy data from the HRIS.
+
+However LR worked better as compared to other models, the AUC score was also 91%.
