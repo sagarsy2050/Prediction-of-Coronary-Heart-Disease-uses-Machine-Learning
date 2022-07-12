@@ -64,8 +64,6 @@ Bagged Decision Trees
 Investigate a suite of simpler more interpretable models, such as:
 Logistics Regression
 k-Nearest Neighbours.
-Select the model from (1) & (2) that best approximates the accuracy.
-![Uploading image.png…]()
 
 
 
