@@ -56,16 +56,15 @@ The dataset is publically available on the Kaggle website, and it is from an ong
 * Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.) 
 * Glucose: glucose level (Continuous) 
 
-Investigate a suite of complex models and establish a performance ceiling:
-Support Vector Machines
-Gradient Boosting Machines
-Random Forest
-Bagged Decision Trees
-Investigate a suite of simpler more interpretable models, such as:
-Logistics Regression
-k-Nearest Neighbours.
+# Conclusion
 
+The importance of predicting Heart Disease and how ML can help has been presented here
 
+Too much of Noise data in the HER dataset as a challenge was highlighted
 
+Logistic Regression classifier was compared with 4 other supervised classifiers that had
+been historically used to build turnover models
 
-
+The results demonstrate that the LR classifier is a superior algorithm in terms of
+significantly higher accuracy, relatively low runtimes and efficient memory utilization for
+predicting CHD.
